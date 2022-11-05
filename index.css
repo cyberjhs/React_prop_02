@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  background-color: black;
+ }
+ h1,h2,h3,h4,h5,h6,p{
+   padding: 0 1rem;
+   margin: 0;
+ }
+ .card{
+   display: flex;
+   border-radius: 15px;
+ }
+ .mainContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   gap: 3rem;
+ }
+ .background{
+   width: 25vw;
+   background-size: cover;
+   border-bottom-right-radius: 15px;
+   border-top-right-radius: 15px;
+   cursor: pointer;
+ }
+ .background:hover{
+   opacity: 0.5;
+ }
+ .About{
+   display: flex;
+   
+ }
+ .About div:nth-child(2){
+   margin-left: 1rem;
+   display: flex;
+   flex-direction: column;
+   font-size: 1.3rem;
+ }
+ .name{
+   font-size: 2.5rem;
+ }
+ .duration{
+   border: 2px solid rgb(180, 180, 180);
+   padding: 0.1rem 0.3rem;
+   border-radius: 5px;
+ }
+ .genre{
+   margin-top: 1rem;
+   color: #C9DDF6;
+ }
+ .date{
+   color: #7f9cc4;
+ }
+ .About>img{
+   width: 100px;
+ }
+ .description{
+   margin-top: 1rem;
+   font-size: 1.3rem;
+   color: #CFD7DC;
+ }
+ .left{
+   width: 30vw;
+   background-color: rgb(17, 17, 17);
+   color: white;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   padding: 2rem;
+ }
+ .share{
+   display: flex;
+   gap: 1rem;
+   margin-top: 3rem;
+ }
